@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100vh;
+}
+
+/* ===========NAVBAR=========== */
+
+nav a {
+    text-decoration: none;
+    color: rgb(92, 86, 86) !important;
+}
+
+nav a:hover {
+    color: burlywood !important;
+}
+
+/* ===========FIN NAVBAR========= */
+
+/* ===========TITRE============ */
+h1,
+h2,
+h3 {
+    font-family: 'ArchicocoRegular';
+    font-weight:bold;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 16px !important;
+    color: white;
+}
+
+h2 {
+    font-size: 15px !important;
+}
+
+h3 {
+    font-size: 14px !important;
+}
+
+/* ==========FIN TITRE========== */
+
+/* ==========HEADER ET FOOTER============ */
+#header {
+    height: 500px;
+}
+
+footer {
+    height: 70px;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: black;
+}
+
+header {
+    background-image: url(../img/external-content.duckduckgo.com.jpeg);
+    background-size: cover;
+    border-radius:1%;
+}
+/* =============FIN HEADER ET FOOTER=========== */
+
+/* =============INTRODUCTION=================== */
+#introduction {
+    height: 100px;
+}
+/* =============FIN INTRODUCTION============== */
+
+/* MAIN */
+#Listes a {
+    text-decoration: none;
+    color: black;
+}
+
+#Listes a:hover {
+    color: burlywood !important;
+}
+/* ===============FIN MAIN==================== */
+
+/* ===========MEDIA TAILLE MENU CONNEXION============= */
+@media (min-width: 979px) {
+    .dropdown-menu {
+        width: 300px;
+    }
+}
+
+/* ===========MEDIA TAILLE TITRE============= */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 26px !important;
+    }
+    h2 {
+        font-size: 22px !important; 
+    }
+    h3 {
+        font-size: 18px !important;
+    }    
+}
+
+/* ===========MEDIA CHANGEMENT BACKGROUND============= */
+
+
+
+
+

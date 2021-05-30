@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/archicoco" type="text/css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Lien css -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <!-- Lien bootstap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <title>Anon</title>
+</head>
+
+<body>
+    <!-- <div id="particle-canvas"></div> -->
+    <div class="container-fluid">
+
+        <!-- Début Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-gradient">
+            <div class="container-fluid p-0">
+                <img class="img-fluid" src="assets/img/favicon.ico"
+                            alt="Logo du site représentant ......." height="35" width="35">
+                            <a class="navbar-brand ps-2 me-1" href="#">Anon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">failles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bonus</a>
+                        </li>
+                        <!-- Début Formulaire -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Inscription/Connexion
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <form class="px-4 py-3">
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormEmail1" class="form-label">Adresse
+                                            email</label>
+                                        <input type="email" class="form-control" id="exampleDropdownFormEmail1"
+                                            placeholder="email@exemple.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleDropdownFormPassword1" class="form-label">Mot de
+                                            passe</label>
+                                        <input type="password" class="form-control" id="exampleDropdownFormPassword1"
+                                            placeholder="Mot-de-passe">
+                                    </div>
+                                    <div class="mb-3">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                            <label class="form-check-label" for="dropdownCheck">
+                                                se rappeller de moi
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">s'identifier</button>
+                                </form>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Nouveau ici? Inscription</a>
+                                <a class="dropdown-item" href="#">Mot de passe oublié?</a>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Fin Formulaire -->
+
+                    <!-- Début champ Recherche -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Chercher" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                    </form>
+                    <!-- Fin champ recherche -->
+                </div>
+            </div>
+        </nav>
+        <!-- Fin Navbar -->
+
+        <!-- Début Header-->
+        <header>
+            <div id="header" class="container-fluid">
+                <div class="row h-100">
+                    <div class="d-flex col-12 col-lg-12 justify-content-center pt-4">
+                        <span>
+                            <h1>Les Failles en sécurité informatiques</h1>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Fin header -->
+
+        <!-- Début Main -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-lg-12 bg-light bg-gradient rounded-3 border border-info p-2 mt-2">
+                    <p>Les menaces se multipliant de plus en plus,(virus, vers, spywares et
+                        intrusions),il est primordial de savoir quelles attitudes et actions adopter pour se
+                        prémunir et réagir aux problèmes de sécurité.À côté de ça un autre problème :le spam
+                        augmente aussi de manière inquiétante
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-2">
+            <div class="row">
+                <div id="Listes" class="col-12 col-lg-10 bg-light bg-gradient rounded-3 border border-info p-2 mb-2">
+                    <span>
+                        <h2>Liste des failles basiques</h2>
+                    </span>
+                    Je vous propose une liste des principales failles de sécurité informatique.Que se soit dans les
+                    technologies liées au web,au réseau,à la cryptographie il existe des failles dans tous les
+                    domaines.Je vais donc ici vous présenter une liste par thème des principales failles de sécurité à
+                    éviter.
+                    <hr>
+
+                    <ul><a href="faille-web.html">Failles web</a>
+                        <a href="#">
+                            <li>Oubli de valider les entrées des utilisateurs</li>
+                        </a>
+                        <a href="#">
+                            <li>Contrôle d'accès inefficace</li>
+                        </a>
+                        <a href="#">
+                            <li>Mauvaise gestion des sessions</li>
+                        </a>
+                        <a href="#">
+                            <li>Cross Site Scripting</li>
+                        </a>
+                    </ul>
+
+                    <ul><a href="faille-reseaux.html">Failles réseau</a>
+                        <a href="#">
+                            <li>Bruteforce</li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                    </ul>
+
+                    <ul><a href="faille-applicative.html">Faille applicative</a>
+                        <a href="#">
+                            <li>Buffer overflows</li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                    </ul>
+
+                    <ul><a href="faille-humaine.html">Faille humaine (Social Engineering)</a>
+                        <a href="#">
+                            <li>Hameçonnage (Fishing)</li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                        <a href="#">
+                            <li></li>
+                        </a>
+                    </ul>
+
+                </div>
+                <div id="Articles" class="col-12 col-lg-2 bg-light bg-gradient rounded-3 border border-info d-none d-lg-block mb-2">
+                </div>
+            </div>
+        </div>
+        <!-- Fin Main -->
+
+        <!-- Début Footer-->
+        <footer>
+            <div class="container-fluid">
+                <div class="row bg-light rounded-3 border border-info">
+
+                    <div class="col-2 col-lg-2 align-self-center"><img class="img-fluid" src="assets/img/favicon.ico"
+                            alt="Logo du site représentant ......." height="35" width="35"></div>
+
+                    <div id="Infos" class="col-10 col-lg-10 text-end">
+                        <div><a href="Mentions-legales.html">Mentions Légales</a></div>
+
+                        <div><a href="Politiques-de-confidentialite.html">Politiques d'utilisation</a></div>
+                        <div>Copyright &copy; Anon 2021</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Fin Footer -->
+    </div>
+
+    <!-- Script Bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js">
+    </script>
+    <!-- Script Personnel -->
+    <!-- <script src="assets/js/script.js"></script> -->
+</body>
+
+</html>
