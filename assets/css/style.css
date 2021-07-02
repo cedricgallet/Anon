@@ -5,26 +5,28 @@ body {
 
 /* ===========NAVBAR=========== */
 
-nav a {
-    text-decoration: none;
+.navbar {
+    background-color: #D8D8D8;
 }
 
-nav a:hover {
-    color: burlywood !important;
+.navbar .navbar-nav .nav-link {
+    text-decoration: none;
+    color: rgb(146, 135, 135);
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #FA5858;
 }
 
 /* ===========FIN NAVBAR========= */
 
 /* ===========TITRE============ */
-/* h1,
-h2,
-h3 {
+
+/*h1 {
     font-family: 'ArchicocoRegular';
     font-weight: bold;
     font-style: normal;
-}
-
-h1 {
     font-size: 16px !important;
     color: white;
 }
@@ -39,31 +41,19 @@ h3 {
 
 /* ==========FIN TITRE========== */
 
-/* ==========HEADER ET FOOTER============ */
-#header {
-    height: 500px;
-}
 
-footer {
-    height: 100px;
-}
-
+/* ===========FOOTER=========== */
 footer a {
     text-decoration: none !important;
     color: white;
 }
 
 footer a:hover {
-    color: burlywood;
+    color: red;
 }
 
-header {
-    background-image: url(../img/external-content.duckduckgo.com.jpeg);
-    background-size: cover;
-    border-radius: 1%;
-}
 
-/* =============FIN HEADER ET FOOTER=========== */
+/* =============FOOTER=========== */
 
 /* =============INTRODUCTION=================== */
 #introduction {
@@ -72,23 +62,24 @@ header {
 
 /* =============FIN INTRODUCTION============== */
 
-/* MAIN */
-#Listes a {
+
+
+/* ================REGISTER======================= */
+
+.form-check-label a {
     text-decoration: none;
+    text-decoration: underline;
     color: black;
 }
 
-#Listes a:hover {
-    color: burlywood !important;
-}
+/* ===============FIN REGISTER==================== */
 
-/* ===============FIN MAIN==================== */
 
-/* ===========MEDIA TAILLE MENU CONNEXION============= */
+
+/* ===========MEDIA TAILLE MENU NAV CONNEXION============= */
 @media (min-width: 979px) {
     .dropdown-menu {
         width: 300px;
     }
 }
-
 

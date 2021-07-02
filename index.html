@@ -5,23 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Problèmes de sécurité liés aux
-        principales failles de sécurité informatique, que se soit dans les
-        technologies liées au web,au réseau et à la cryptographie">
+    <meta name="description" content="">
 
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- Bootstrap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/archicoco" type="text/css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
-
+    <!-- Lien css -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <!-- Lien bootstap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <title>Anon</title>
-
 </head>
 
 <body>
+
     <!-- Début header -->
     <header class="bg-body border-bottom border-danger">
 
@@ -37,7 +34,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-auto mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="index.html">Acceuil</a>
                         </li>
@@ -86,11 +83,11 @@
                                             </label>
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">s'identifier</button>
+                                    <a class="btn btn-outline-secondary" href="login.html" role="button">s'identifier</a>
                                 </form>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="register.html">Nouveau ici? Inscription</a>
-                                <a class="dropdown-item" href="#">Mot de passe oublié?</a>
+                                <a class="dropdown-item text-decoration-underline" href="register.html">Nouveau ici? Inscription</a>
+                                <a class="dropdown-item text-decoration-underline" href="#">Mot de passe oublié?</a>
                             </ul>
                         </li>
                     </ul>
@@ -100,7 +97,7 @@
                     <form class="d-flex me-2">
                         <input class="form-control me-2" type="search" placeholder="Chercher par mot clé: xss"
                             aria-label="Search">
-                        <button class="btn btn-outline-success " type="submit">Rechercher</button>
+                        <button class="btn btn-outline-secondary" type="submit">Rechercher</button>
                     </form>
                     <!-- Fin champ recherche -->
                 </div>
@@ -122,11 +119,12 @@
                                     Les Failles en sécurité informatiques
                                 </h1>
                                 <p class="card-text">Les menaces se multipliant de plus en plus,(virus, vers, spywares
-                                    et intrusions),il est primordial de savoir quelles attitudes et actions adopter 
+                                    et intrusions),il est primordial de savoir quelles attitudes et actions adopter
                                     pour se prémunir et réagir aux problèmes de sécurité.Je vous propose une liste des
                                     principales failles de sécurité informatique, que se soit dans les
                                     technologies liées au web,au réseau,à la cryptographie il existe des failles dans
-                                    tous les domaines.Je vais donc ici vous présenter une liste par thème des principales failles
+                                    tous les domaines.Je vais donc ici vous présenter une liste par thème des
+                                    principales failles
                                     de sécurité à éviter.
                                 </p>
                                 <!-- <div class="d-flex text-center border-top border-1 pt-2">
@@ -229,13 +227,11 @@
                         <!-- Pagination bas -->
                         <nav class="mt-3" aria-label="Page navigation example">
                             <ul class="pagination justify-content-center">
-                                
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                <li class="page-item"><a class="page-link" href="#">5</a></li>
 
+                                <li class="page-item"><a class="page-link" href="faille-applicative.html">1</a></li>
+                                <li class="page-item"><a class="page-link" href="faille-humaine.html">2</a></li>
+                                <li class="page-item"><a class="page-link" href="faille-reseaux.html">3</a></li>
+                                <li class="page-item"><a class="page-link" href="faille-web.html">4</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -313,29 +309,36 @@
             </div>
         </main>
 
+
+
         <!-- Début Footer -->
+
         <footer id="footer" class="bg-dark text-white">
 
             <div class="container-fluid py-4">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
+                    <div class="infos col-12 col-lg-6 text-center text-lg-start">
                         <div>Informations pratiques :</div>
                         <div><a href="mailto:cedric@anon.org">cedric@anon.org</a></div>
                     </div>
-                    <div class="col-12 col-lg-6 text-end">
-                        <div class="me-2">Réseaux</div>
-                        <div>
-                            <a href="https://linkedin.com"><img class="img-fluid" src="/assets/img/square-linkedin-128.webp" alt="réseau facebook" height="35" width="35"></a>
-                            <a href="https://twitter.com"><img class="img-fluid" src="/assets/img/square-twitter-128.webp" alt="réseau facebook" height="35" width="35"></a>
+                    <div class="imgSocial col-12 col-lg-6 text-center text-lg-end">
+                        <div class=" social me-lg-3">Réseaux</div>
+                        <div class="me-lg-2">
+                            <a href="https://linkedin.com"><img class="img-fluid"
+                                    src="/assets/img/square-linkedin-128.webp" alt="réseau facebook" height="35"
+                                    width="35"></a>
+                            <a href="https://twitter.com"><img class="img-fluid"
+                                    src="/assets/img/square-twitter-128.webp" alt="réseau facebook" height="35"
+                                    width="35"></a>
                         </div>
-                        
                     </div>
-        
-        
+
+
                     <div class="col-12 col-lg-12 text-center">
-                        <div><a href="mentionsLegales.php">Mentions Légales</a></div>
+                        <div><a href="mentions-legales.html">Mentions Légales</a></div>
+                        <div><a href="politiques-de-confidentialite.html">politiques de confidentialité</a></div>
                         <div class="copyright">
-                            &copy; Copyright <strong><span>Anon - 2021</span></strong>Tous droits réservés
+                            &copy; Copyright <strong><span>Anon - 2021</span></strong> - Tous droits réservés.
                         </div>
                     </div>
                 </div>
@@ -343,8 +346,15 @@
         </footer>
         <!-- FIN Footer -->
 
+
         <!-- Script Bootstrap -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js">
+        </script>
+        <!-- Script Personnel -->
+        <!-- <script src="assets/js/script.js"></script> -->
+
+
+
 </body>
 
 </html>
