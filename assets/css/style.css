@@ -6,12 +6,12 @@ body {
 /* ===========NAVBAR=========== */
 
 .navbar {
-    background-color: #D8D8D8;
+    background-color: #e6d4d4;
 }
 
 .navbar .navbar-nav .nav-link {
     text-decoration: none;
-    color: rgb(146, 135, 135);
+    color: rgb(72, 146, 29);
     font-size: 1.1em;
 }
 

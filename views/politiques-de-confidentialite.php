@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
     <!-- Lien css -->
     <link href="/assets/css/style.css" rel="stylesheet">
     <!-- Lien bootstap -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <title>Politique de confidentialité</title>
 </head>
 
@@ -148,10 +148,10 @@
                 </span>
             </div>
         </div>
-        <a class="btn bg-light rounded-3 border border-danger mt-2 mx-auto" href="index.html" role="button">Retour à l'acceuil</a>
+        <a class="btn bg-light rounded-3 border border-danger mt-2 mx-auto" href="/index.php" role="button">Retour à l'acceuil</a>
     </div>
     <!-- Bootstrap js -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
